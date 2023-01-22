@@ -1,0 +1,16 @@
+dist/
+bundles/
+
+package/
+npm-debug.log
+node_modules/
+
+example/dist/
+example/npm-debug.log
+example/node_modules/
+/package-lock.json
+
+.DS_Store
+node_modules
+.idea
+.angular/
