@@ -16,7 +16,6 @@
     "build": "ng build lib",
     "build:app": "ng build app --configuration=production --base-href=ngx-om-slider --delete-output-path=false",
     "deploy": "deploy-to-git",
-    "prepare": "ng build lib --configuration=production",
     "publish": "npm publish ./dist/lib",
     "predeploy": "rimraf ./dist/app && mkdirp ./dist/app"
   },
@@ -52,13 +51,12 @@
     "@angular/core": "^14.0.0",
     "@angular/flex-layout": "14.0.0-beta.41",
     "@angular/forms": "^14.0.0",
-    "@angular/http": "^14.0.0",
+    "@angular/http": "7.2.16",
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
     "@ng-bootstrap/ng-bootstrap": "^2.0.0",
     "bootstrap-icons": "^1.1.0",
-    "core-js": "^2.5.4",
     "detect-passive-events": "^2.0.3",
     "rxjs": "^6.6.0",
     "zone.js": "^0.11.8"
@@ -68,6 +66,7 @@
     "@angular-devkit/build-ng-packagr": "^0.1000.0",
     "@angular/cli": "^14.0.0",
     "@angular/compiler-cli": "^14.0.0",
+    "@angular/language-service": "^14.0.0",
     "@types/node": "~13.9.1",
     "codelyzer": "^6.0.0",
     "core-js": "^3.6.0",
@@ -75,7 +74,11 @@
     "deploy-to-git": "^0.1.0",
     "mkdirp": "^1.0.0",
     "ng-packagr": "~14.1.0",
+    "prismjs": "^1.14.0",
+    "protractor": "~5.4.0",
+    "protractor-console-plugin": "^0.1.1",
     "rimraf": "^3.0.0",
+    "scss-bundle": "^2.4.0",
     "stylelint": "^13.6.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
@@ -83,7 +86,9 @@
     "ts-node": "^8.10.0",
     "tsickle": "^0.39.0",
     "tslint": "^6.1.0",
+    "typedoc": "^0.15.8",
     "typescript": "4.7.4",
-    "watch": "^1.0.0"
+    "watch": "^1.0.0",
+    "webdriver-manager": "^12.1.7"
   }
 }
