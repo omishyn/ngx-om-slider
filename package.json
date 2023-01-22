@@ -45,15 +45,22 @@
     }
   },
   "dependencies": {
+    "@angular/animations": "^14.0.0",
     "@angular/cdk": "^14.0.0",
     "@angular/common": "^14.0.0",
     "@angular/compiler": "^14.0.0",
     "@angular/core": "^14.0.0",
     "@angular/flex-layout": "14.0.0-beta.41",
+    "@angular/forms": "^14.0.0",
+    "@angular/http": "^14.0.0",
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
-    "om-perfect-scrollbar": "^2.0.1",
-    "resize-observer-polyfill": "^1.5.0"
+    "@angular/router": "^14.0.0",
+    "@ng-bootstrap/ng-bootstrap": "^2.0.0",
+    "bootstrap-icons": "^1.1.0",
+    "core-js": "^2.5.4",
+    "detect-passive-events": "^2.0.3",
+    "rxjs": "^6.5.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~14.2.0",
