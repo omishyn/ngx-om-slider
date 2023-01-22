@@ -1,0 +1,83 @@
+{
+  "name": "ngx-om-ngx-slider",
+  "description": "Angular wrapper library for slider",
+  "bugs": "https://github.com/omishyn/ngx-om-slider/issues",
+  "version": "14.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Oleh Mishyn",
+    "email": "mishyn.uk@gmail.com",
+    "url": "https://github.com/omishyn"
+  },
+  "scripts": {
+    "ng": "ng",
+    "lint": "ng lint",
+    "start": "ng serve app",
+    "build": "ng build lib",
+    "build:app": "ng build app --configuration=production --base-href=ngx-om-slider --delete-output-path=false",
+    "deploy": "deploy-to-git",
+    "prepare": "ng build lib --configuration=production",
+    "publish": "npm publish ./dist/lib",
+    "predeploy": "rimraf ./dist/app && mkdirp ./dist/app"
+  },
+  "tslint": {
+    "extends": "./tslint.json"
+  },
+  "stylelint": {
+    "extends": "./stylelint.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omishyn/ngx-om-slider.git"
+  },
+  "private": true,
+  "config": {
+    "deployToGit": {
+      "repository": "git@github.com:omishyn/ngx-om-slider.git",
+      "branch": "gh-pages",
+      "folder": "dist/app",
+      "script": "ng build app --configuration=production --base-href=ngx-om-slider --delete-output-path=false",
+      "commit": "Publishing $npm_package_version",
+      "user": {
+        "name": "Oleh Mishyn",
+        "email": "mishyn.ua@gmail.com"
+      }
+    }
+  },
+  "dependencies": {
+    "@angular/cdk": "^14.0.0",
+    "@angular/common": "^14.0.0",
+    "@angular/compiler": "^14.0.0",
+    "@angular/core": "^14.0.0",
+    "@angular/flex-layout": "14.0.0-beta.41",
+    "@angular/platform-browser": "^14.0.0",
+    "@angular/platform-browser-dynamic": "^14.0.0",
+    "om-perfect-scrollbar": "^2.0.1",
+    "resize-observer-polyfill": "^1.5.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~14.2.0",
+    "@angular-devkit/build-ng-packagr": "^0.1000.0",
+    "@angular/cli": "^14.0.0",
+    "@angular/compiler-cli": "^14.0.0",
+    "@types/node": "~13.9.1",
+    "codelyzer": "^6.0.0",
+    "core-js": "^3.6.0",
+    "cpx": "^1.5.0",
+    "deploy-to-git": "^0.1.0",
+    "mkdirp": "^1.0.0",
+    "ng-packagr": "~14.1.0",
+    "rimraf": "^3.0.0",
+    "rxjs": "^6.6.0",
+    "stylelint": "^13.6.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "terser": "^5.0.0",
+    "ts-node": "^8.10.0",
+    "tsickle": "^0.39.0",
+    "tslint": "^6.1.0",
+    "typescript": "4.6.4",
+    "watch": "^1.0.0",
+    "zone.js": "^0.11.8"
+  }
+}
