@@ -1,6 +1,6 @@
 {
-  "name": "ngx-om-ngx-slider",
-  "description": "Angular wrapper library for slider",
+  "name": "ngx-om-slider",
+  "description": "Angular Ivy library for slider",
   "bugs": "https://github.com/omishyn/ngx-om-slider/issues",
   "version": "14.0.1",
   "license": "MIT",
@@ -15,9 +15,9 @@
     "deploy": "deploy-to-git",
     "publish": "npm publish ./dist/ngx-slider",
     "start": "ng serve",
-    "build": "npm run build:lib && npm run build:demo-app",
+    "build": "npm run build:lib && npm run build:app",
     "build:lib": "ng build lib && scss-bundle -e src/ngx-slider/src/lib/main.scss -d dist/ngx-slider/scss/ngx-slider.scss",
-    "build:demo-app": "ng build --configuration=production --base-href /ngx-slider/"
+    "build:app": "ng build ngx-slider-demo-app --configuration=production --base-href=/ngx-slider/ --delete-output-path=false"
   },
   "tslint": {
     "extends": "./tslint.json"
@@ -33,9 +33,9 @@
   "config": {
     "deployToGit": {
       "repository": "git@github.com:omishyn/ngx-om-slider.git",
-      "branch": "gh-pages",
-      "folder": "dist/app",
-      "script": "ng build app --configuration=production --base-href=ngx-om-slider --delete-output-path=false",
+      "branch": "main",
+      "folder": "dist/ngx-slider",
+      "script": "ng build lib && scss-bundle -e src/ngx-slider/src/lib/main.scss -d dist/ngx-slider/scss/ngx-slider.scss",
       "commit": "Publishing $npm_package_version",
       "user": {
         "name": "Oleh Mishyn",
