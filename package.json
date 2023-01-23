@@ -14,7 +14,6 @@
     "lint": "ng lint",
     "deploy": "deploy-to-git",
     "publish": "npm publish ./dist/ngx-slider",
-
     "start": "ng serve",
     "build": "npm run build:lib && npm run build:demo-app",
     "build:lib": "ng build lib && scss-bundle -e src/ngx-slider/src/lib/main.scss -d dist/ngx-slider/scss/ngx-slider.scss",
@@ -56,8 +55,8 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
-    "@ng-bootstrap/ng-bootstrap": "^2.0.0",
-    "bootstrap-icons": "^1.1.0",
+    "@ng-bootstrap/ng-bootstrap": "^11.0.0",
+    "bootstrap-icons": "^1.10.3",
     "detect-passive-events": "^2.0.3",
     "rxjs": "^6.6.0",
     "zone.js": "^0.11.8"

@@ -123,7 +123,7 @@ import { routerConfig, routerOptions } from './app-router.config';
     FormsModule,
     ReactiveFormsModule,
     RouterModule.forRoot(routerConfig, routerOptions),
-    NgbModule.forRoot(),
+    NgbModule,
     NgxSliderModule
   ],
   providers: [],
