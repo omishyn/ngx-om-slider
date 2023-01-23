@@ -18,7 +18,7 @@
     "start": "ng serve",
     "build": "npm run build:lib && npm run build:demo-app",
     "build:lib": "ng build lib && scss-bundle -e src/ngx-slider/src/lib/main.scss -d dist/ngx-slider/scss/ngx-slider.scss",
-    "build:demo-app": "ng build --prod --base-href /ngx-slider/"
+    "build:demo-app": "ng build --configuration=production --base-href /ngx-slider/"
   },
   "tslint": {
     "extends": "./tslint.json"
