@@ -62,6 +62,7 @@ import {
   VerticalSlidersComponent,
 } from './snippets';
 import { routerConfig, routerOptions } from './app-router.config';
+import {NgbTabsetModule} from './tabset/tabset.module';
 
 @NgModule({
   declarations: [
@@ -124,7 +125,8 @@ import { routerConfig, routerOptions } from './app-router.config';
     ReactiveFormsModule,
     RouterModule.forRoot(routerConfig, routerOptions),
     NgbModule,
-    NgxSliderModule
+    NgxSliderModule,
+    NgbTabsetModule
   ],
   providers: [],
   bootstrap: [AppComponent]
