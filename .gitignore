@@ -14,3 +14,4 @@ example/node_modules/
 node_modules
 .idea
 .angular/
+/src/ngx-slider/package-lock.json
