@@ -1,6 +1,6 @@
 {
   "name": "ngx-om-slider",
-  "version": "14.1.1",
+  "version": "15.0.1",
   "description": "Angular wrapper library for slider",
   "author": {
     "name": "Oleh Mishyn",
@@ -18,8 +18,8 @@
     "rxjs": "^7.5.0",
   },
   "peerDependencies": {
-    "@angular/core": "^14.0.0",
-    "@angular/common": "^14.0.0",
-    "@angular/forms": "^14.0.0"
+    "@angular/core": "^15.0.0",
+    "@angular/common": "^15.0.0",
+    "@angular/forms": "^15.0.0"
   }
 }
