@@ -14,6 +14,7 @@
       "@local/ngx-slider": [ "../../dist/ngx-slider", "../ngx-slider/src/public_api.ts" ]
     }
   },
+  "include": ["*.ts"],
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
