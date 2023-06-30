@@ -1,6 +1,6 @@
 {
   "name": "ngx-om-slider",
-  "version": "13.0.1",
+  "version": "12.0.1",
   "description": "Angular wrapper library for slider",
   "author": {
     "name": "Oleh Mishyn",
@@ -15,11 +15,11 @@
   "bugs": "https://github.com/omishyn/ngx-om-slider/issues",
   "dependencies": {
     "detect-passive-events": "^2.0.3",
-    "rxjs": "^6.6.0"
+    "rxjs": "~6.5.0"
   },
   "peerDependencies": {
-    "@angular/core": "^13.0.0",
-    "@angular/common": "^13.0.0",
-    "@angular/forms": "^13.0.0"
+    "@angular/core": "^12.0.0",
+    "@angular/common": "^12.0.0",
+    "@angular/forms": "^12.0.0"
   }
 }
