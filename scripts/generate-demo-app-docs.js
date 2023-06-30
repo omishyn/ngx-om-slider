@@ -10,7 +10,6 @@
  */
 
 const path = require('path');
-const mkdirp = require('mkdirp');
 const fs = require('fs');
 const rimraf = require('rimraf');
 const typedoc = require('typedoc');
@@ -54,7 +53,7 @@ function generateTypedocDocs(typedocDocsDir) {
 /** Convert typedoc HTML file into Angular component for use in demo app */
 function generateComponent(typedocHtmlFile, relativeTypedocHtmlFile, demoAppDocsModuleDir) {
   const directory = path.dirname(relativeTypedocHtmlFile);
-  mkdirp.sync(path.join(demoAppDocsModuleDir, directory));
+  fs.rmdirSync(path.join(demoAppDocsModuleDir, directory));
 
   const fileName = path.basename(relativeTypedocHtmlFile);
   const componentHtmlFileName = fileName.replace(/\.html$/, '.component.html');
