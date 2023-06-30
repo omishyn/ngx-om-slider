@@ -53,14 +53,13 @@
     "@angular/platform-browser": "^13.0.0",
     "@angular/platform-browser-dynamic": "^13.0.0",
     "@angular/router": "^13.0.0",
-    "@ng-bootstrap/ng-bootstrap": "^13.0.0",
-    "@popperjs/core": "2.10.2",
-    "bootstrap": "5.2.0",
+    "@ng-bootstrap/ng-bootstrap": "^11.0.0",
     "bootstrap-icons": "^1.10.3",
+    "bootstrap": "5.2.0",
     "detect-passive-events": "^2.0.3",
-    "rxjs": "^7.5.0",
+    "rxjs": "~6.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.12.0"
+    "zone.js": "~0.11.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.2.0",
@@ -88,7 +87,7 @@
     "tsickle": "^0.39.0",
     "tslint": "^6.1.0",
     "typedoc": "^0.15.8",
-    "typescript": "~4.6.4",
+    "typescript": "~4.5.4",
     "watch": "^1.0.0",
     "webdriver-manager": "^12.1.7"
   }
