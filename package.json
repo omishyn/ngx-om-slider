@@ -2,7 +2,7 @@
   "name": "ngx-om-slider",
   "description": "Angular Ivy library for slider",
   "bugs": "https://github.com/omishyn/ngx-om-slider/issues",
-  "version": "16.0.1",
+  "version": "16.0.2",
   "license": "MIT",
   "author": {
     "name": "Oleh Mishyn",
